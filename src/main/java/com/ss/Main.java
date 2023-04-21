@@ -32,25 +32,30 @@ class Book{
         this.id = id;
 
     }
-    public String getIsbn(){
+    public String getIsbn( ){
         return this.isbn;
     }
-    public void setIsbn(){
+    public void setIsbn(String isbn){
         this.isbn = isbn;
 
     }
     public String getTitle(){
         return this.title;
     }
-    public String setTitle(){
+    public void setTitle(String title){
         this.title = title;
     }
     public Boolean getBooksCheckedOut(){
         return this.booksCheckedOut;
     }
-    public Boolean setBooksCheckedOut(){
+    public void setBooksCheckedOut( Boolean BooksCheckedOut){
         this.booksCheckedOut = booksCheckedOut;
     }
-
+    public String getCheckOutTo(){
+        return this.checkOutTo;
+    }
+    public void setBooksCheckedOut (String checkOutTo){
+       this.checkOutTo = checkOutTo;
+    }
 
     }
